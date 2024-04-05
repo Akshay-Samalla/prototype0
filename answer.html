@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Number Submission</title>
+    <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-database.js"></script>
+    <script>
+        // Replace these with your Firebase project configuration
+        const firebaseConfig = {
+            // ... your Firebase project configuration
+        };
+    </script>
+    <style>
+        /* Add any styling for the form and message element as desired */
+
+body {
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#rollNumber {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#message {
+  font-weight: bold;
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>Roll Number Submission</h1>
+    <form id="roll-number-form">
+        <label for="rollNumber">Enter Roll Number:</label>
+        <input type="text" id="rollNumber" name="rollNumber" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="message"></p>
+
+    <script >
+        
+    </script>
+</body>
+
+</html>
